@@ -1,0 +1,51 @@
+{
+  "protostar_threshold": 50,
+  "fusion_threshold": 100,
+  "fusion_table": [
+    {
+      "name": "Hydrogen",
+      "next": "Helium",
+      "cost": 4
+    },
+    {
+      "name": "Helium",
+      "next": "Carbon",
+      "cost": 3
+    },
+    {
+      "name": "Carbon",
+      "next": "Oxygen",
+      "cost": 1
+    },
+    {
+      "name": "Oxygen",
+      "next": "Neon",
+      "cost": 1
+    },
+    {
+      "name": "Neon",
+      "next": "Magnesium",
+      "cost": 1
+    },
+    {
+      "name": "Magnesium",
+      "next": "Silicon",
+      "cost": 1
+    },
+    {
+      "name": "Silicon",
+      "next": "Iron",
+      "cost": 3
+    }
+  ],
+  "element_fuel": {
+    "Hydrogen": 100,
+    "Helium": 0,
+    "Carbon": 0,
+    "Oxygen": 0,
+    "Neon": 0,
+    "Magnesium": 0,
+    "Silicon": 0,
+    "Iron": 0
+  }
+}
